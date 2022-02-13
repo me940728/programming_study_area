@@ -1,0 +1,11 @@
+HELP.md
+
+### STS ###
+.classpath
+.factorypath
+.project
+.settings
+.metadata
+
+### VS Code ###
+.vscode/
