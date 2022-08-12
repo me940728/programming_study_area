@@ -24,8 +24,8 @@ from : 매개변수 하나 받아서 해당 타입 인스턴스 반환하는 형
 of : 여러 매개변수를 받아 적합한 타입 인스턴스 반환하는 메서드
 valueOf : from 과 of 의 자세한 버전
  */
-public class Item01 {
-    public void ITem01(){ // 기존의 사용자 정의 생성자
+public class StaticFactoryMethod {
+    public void StaticFactoryMethod(){ // 기존의 사용자 정의 생성자
 
     }
     // 정적팩터리 메서드
@@ -34,7 +34,7 @@ public class Item01 {
         return res;
     }
     public static void main(String[] args){
-        Item01 ins = new Item01();
+        StaticFactoryMethod ins = new StaticFactoryMethod();
         String str = "2";
         int temp = ins.from(str);
         System.out.println(temp);
