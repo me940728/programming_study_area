@@ -7,13 +7,13 @@ console.log("testLog");
 console.log(`${tNum}`); // => 백틱은 영어 상태에서 ₩를 누르면 입력 가능함
 
 
-/* 2022.08.13 토 */
+/* 2022.08.16 화 */
 let TimeTable = {
-    /* Sprint Day 3 14:00~18:00 */
-    DataBaseBuild : "데이터베이스 서버 구축",
-    KakaoAPI : "부트에 카카오API 적용",
-    /* 쉬는 시간 19:00 ~ 21:00 */
-    Movie : "",
+    /* 대외비 7:00~17:30 */
+    /* Sprint Day 5 18:30~:21:00 */
+    KakaoAPI2 : ["OAUTH2 적용, JWT", "메시지 API 연동"],
     /* 운동 시간 21:00 ~ 22:30 */
-    Health : ""
+    Health : "..."
 }
+
+
